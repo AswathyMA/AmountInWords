@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-<label>Enter Amount</label><input type="number" id="amnt" onfocusout="RsPaise(document.getElementById('amnt').value)">
+<label>Enter Amount (INR)  </label><input type="number" id="amnt" onfocusout="RsPaise(document.getElementById('amnt').value)">
 <span id="op"></span>
 <script>
 function Rs(amount) {
