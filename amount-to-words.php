@@ -3,7 +3,6 @@
 <body>
 <label>Enter Amount</label><input type="number" id="amnt" onfocusout="RsPaise(document.getElementById('amnt').value)">
 <span id="op"></span>
-
 <script>
 function Rs(amount) {
     var words = new Array();
@@ -87,7 +86,6 @@ function Rs(amount) {
     }
     return words_string;
 }
-
 function RsPaise(n) {
 
     nums = n.toString().split('.')
