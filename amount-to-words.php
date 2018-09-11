@@ -1,8 +1,26 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+h3 {
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+</style>
+</head>
 <body>
-<label>Enter Amount (INR)  </label><input type="number" id="amnt" onfocusout="RsPaise(document.getElementById('amnt').value)">
-<span id="op"></span>
+<div class="center">
+    <h3>Rupees in Words</h3>
+    <label>Enter Amount (INR)  </label><input type="number" id="amnt" onfocusout="RsPaise(document.getElementById('amnt').value)">
+    <span id="op"></span>
+</div>
 <script>
 function Rs(amount) {
     var words = new Array();
