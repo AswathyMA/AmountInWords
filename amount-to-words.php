@@ -18,7 +18,7 @@ h3 {
 <body>
 <div class="center">
     <h3>Rupees in Words</h3>
-    <label>Enter Amount (INR)  </label><input type="number" id="amnt" onfocusout="RsPaise(document.getElementById('amnt').value)">
+    <label>Enter Amount (INR)  </label><input type="number" id="amnt" onkeyup="RsPaise(document.getElementById('amnt').value)">
     <span id="op"></span>
 </div>
 <script>
